@@ -13,6 +13,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { ComponentsModule } from "./components/components.module";
+import { CommonLayoutModule } from "./layouts/common-layout/common-layout.module";
+import { CommonLayoutComponent } from "./layouts/common-layout/common-layout.component";
 
 @NgModule({
   imports: [
@@ -23,7 +25,8 @@ import { ComponentsModule } from "./components/components.module";
     NgbModule,
     RouterModule,
     AppRoutingModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    CommonLayoutModule
   ],
   declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent],
   providers: [],
