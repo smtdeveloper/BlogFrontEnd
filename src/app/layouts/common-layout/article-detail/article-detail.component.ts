@@ -10,7 +10,7 @@ export class ArticleDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    alert("sa");
+    
   }
 
 }
